@@ -1,0 +1,90 @@
+{
+  /********TERMINAL*******/
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#c6c6c6",
+    "terminal.background": "#2d2f30",
+    "terminal.ansiBlue": "#5244b5",
+    "terminal.ansiYellow": "#d9ff00e3",
+    "terminal.ansiGreen": "#38f5ab"
+  },
+  /*******DOCUMENT**********/
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  /*******SAVE SETTINGS********/
+  //"editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+
+  /*****************************/
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 0,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  /********Bracket Coloring***********/
+  "emmet.includeLanguages": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    // New bracket
+    [
+      // CSS Color cycle
+      "CadetBlue",
+      "Green",
+      "LightSkyBlue"
+    ],
+    "Red" // Orphaned bracket color
+  ],
+  "cSpell.userWords": [
+    "apos",
+    "attend",
+    "be",
+    "cenlar",
+    "didnt",
+    "docu",
+    "dropdown",
+    "formik",
+    "inmemory",
+    "lightgrey",
+    "mailto",
+    "modal",
+    "mohela",
+    "nowrap",
+    "proptypes",
+    "quovo",
+    "scrollbar",
+    "scuid",
+    "sign",
+    "sofi",
+    "sync",
+    "to",
+    "truthy",
+    "unmount"
+  ],
+  "files.associations": {
+    "GraphQL - Querys": "json"
+  },
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "explorer.confirmDelete": false
+}
